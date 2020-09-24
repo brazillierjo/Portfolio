@@ -1,0 +1,136 @@
+* {
+  font-family: 'Aldrich', sans-serif;
+  cursor: url(img/cursor.png), pointer;
+  color: white;
+}
+
+#body {
+  height: 100%;
+  margin: auto;
+  background-color: #000000;
+  background-image: url(/img/background-galaxy.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nav-center {
+  margin-left: 50px;
+}
+
+.burger-menu {
+  border: none;
+  background-color: transparent;
+}
+
+.nav-link:hover {
+  cursor: url(img/cursor-pointer.png), pointer;
+  text-decoration: none;
+  background: rgb(235, 235, 235);
+  border-radius: 30px;
+  transition: .3s ease-in-out;
+  transition: .2s;
+  font-size: 90%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  text-align: right;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: white;
+  text-align: right;
+}
+
+a:hover {
+  color: #dc3545 !important;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #dc3545;
+  text-decoration-thickness: 3px;
+}
+
+.header {
+  text-align: center;
+}
+
+.img-computer,
+.img-thumb {
+  height: 70px;
+}
+
+.contenu {
+  margin-top: 10%;
+  background-color: transparent;
+}
+
+canvas {
+  display: block;
+}
+
+  #particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  }
+
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: black;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+.navbar-logo {
+  width: 40px;
+}
+
+.navbar-logo:hover {
+  cursor: url(img/cursor-pointer.png), pointer;
+}
+
+.navbar-light .navbar-toggler-icon:hover {
+  cursor: url(img/cursor-pointer.png), pointer;
+}
+
+
+@media all and (max-width: 400px) {
+  .display-1 {
+    font-size: 4em;
+  }
+
+  .display-5 {
+    font-size: 2em;
+  }
+
+  .img-thumb {
+    padding-left: 0 !important;
+  }
+}
+
+
+
+/**********************************************************/
