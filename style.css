@@ -137,6 +137,10 @@ canvas {
   .m-5 {
     margin: 0 !important;
   }
+
+  .nav-link:hover {
+    background: none;
+  }
 }
 
 
