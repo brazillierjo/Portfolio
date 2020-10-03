@@ -73,6 +73,14 @@ a:hover {
   background-color: transparent;
 }
 
+.mb-md-0 {
+  margin: auto;
+}
+
+.form-control:hover {
+cursor: text;
+}
+
 canvas {
   display: block;
 }
